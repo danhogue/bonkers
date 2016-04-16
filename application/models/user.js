@@ -15,7 +15,7 @@ exports.get = function (key, cb) {
     // Return fake user so that you can log in
     // TODO: remove the following return line when you get your test db set up
     return cb('', {
-            'user_id': 'admin@bonkers.com',
+            'user_id': 'admin',
             'password': '$2a$08$Y3kXZRelvYGEVIV5NrXD6ugEXLRXoqQHZRKOstgSPtiAfkbOhRhTW',
             'user_enabled': 'true',
             'default_app_id': ''

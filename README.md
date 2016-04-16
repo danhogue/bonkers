@@ -21,8 +21,8 @@ Then go ahead and build and start:
     $ cd build
     $ npm install
     $ npm start
-
-
+    
+The default sign-in is: admin/password. (See ./application/models/user.js)
 
 Deploying to Elastic Beanstalk
 ------------------------------
