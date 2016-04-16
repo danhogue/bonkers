@@ -1,7 +1,7 @@
 {
     "name": "Bonkers",
     "version": "0.1.0",
-    "description": "Web application project template built on node, express, passport, etc. Focusing on clean modular design.",
+    "description": "Web application project template, built on node, express, passport, etc. Focused on clean modular design.",
     "keywords": ["bonkers", "modular", "node", "express", "passport", "swig", "gulp"],
     "author": "Dan Hogue",
     "license": "The MIT License (MIT)",
