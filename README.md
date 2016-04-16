@@ -1,6 +1,6 @@
 Bonkers
 =========
-
+Web application project template, built with node, express, passport, etc. Focused on clean modular design.
 
 Dev setup instructions
 ----------------------
