@@ -24,7 +24,6 @@ gulp.task('scss', function() {
         'application/css/pages/*.scss'
     ])
         .pipe(sass())
-        .pipe(gulp.dest('application/css/compiled'))
         .pipe(minifyCSS())
         .pipe(concat('style.min.css'))
         .pipe(gulp.dest('build/css'))
@@ -39,7 +38,6 @@ gulp.task('scripts', function() {
     ])
         .pipe(jsx({factory: 'React.createElement'}))
         .pipe(concat('all.js'))
-        .pipe(gulp.dest('application/js/compiled'))
         .pipe(rename('app.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest('build/js'));
