@@ -1,0 +1,147 @@
+
+$navBackground: #383b43;
+//$navBackground: #dbdbdb;
+$navHighlight: white;
+
+$textLight: white;
+$textDark: #383b43;
+
+.overflow {
+  position:absolute;
+  top:0;
+  left:0;
+  display: block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: 0;
+  color: $textLight;
+  max-width:90%;
+}
+
+.overflow p {
+  color: $textLight;
+  line-height:50px;
+  padding:0 10px;
+  margin:0;
+  display:inline;
+}
+
+.navbar-right li {
+  top: -1px;
+}
+
+.nav:after,
+.nav:before,
+.navbar-collapse:after,
+.navbar-collapse:before,
+.navbar-header:after,
+.navbar-header:before,
+.navbar:after,
+.navbar:before {
+  display: inline;
+}
+
+nav {
+  background-color: $navBackground !important;
+}
+
+.navbar-brand {
+  color: $textLight !important;
+}
+
+.navbar-top-links {
+  margin-right: 0;
+}
+
+.navbar-top-links li {
+  display: inline-block;
+}
+
+.navbar-top-links li i {
+  color: $textLight;
+}
+
+.navbar-top-links li:hover i,
+.navbar-top-links li.open i{
+  color: $textDark;
+}
+
+.navbar-top-links li:last-child {
+  margin-right: 15px;
+}
+
+.navbar-top-links li a {
+  padding: 15px;
+  min-height: 50px;
+  color: $textLight;
+  background-color: $navBackground;
+}
+
+.navbar-top-links li:hover a,
+.navbar-top-links li:active a,
+.navbar-top-links li.open a {
+  color: $textDark;
+  background-color: $navHighlight !important;
+}
+
+.navbar-top-links .dropdown-menu li {
+  display: block;
+}
+
+.navbar-top-links .dropdown-menu li:last-child {
+  margin-right: 0;
+}
+
+.navbar-top-links .dropdown-menu li a {
+  padding: 3px 20px;
+  min-height: 0;
+}
+
+.navbar-top-links .dropdown-menu li a div {
+  white-space: normal;
+}
+
+.navbar-top-links .dropdown-messages,
+.navbar-top-links .dropdown-tasks,
+.navbar-top-links .dropdown-alerts {
+  width: 310px;
+  min-width: 0;
+}
+
+.navbar-top-links .dropdown-messages {
+  margin-left: 5px;
+}
+
+.navbar-top-links .dropdown-tasks {
+  margin-left: -59px;
+}
+
+.navbar-top-links .dropdown-alerts {
+  margin-left: -123px;
+}
+
+.navbar-top-links .dropdown-user {
+  right: 0;
+  left: auto;
+}
+
+@media(min-width:768px) {
+  .navbar-top-links .dropdown-messages,
+  .navbar-top-links .dropdown-tasks,
+  .navbar-top-links .dropdown-alerts {
+    margin-left: auto;
+  }
+}
+
+.nav-pills li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.nav-pills li.active a,
+.nav-pills li.active a:hover,
+.nav-pills li.active a:active {
+  background-color: $textLight !important;
+  color: $textDark !important;
+}

@@ -1,0 +1,10 @@
+node_modules
+build
+.idea
+.env
+*.zip
+*.log
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
